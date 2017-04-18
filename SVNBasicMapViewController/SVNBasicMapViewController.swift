@@ -68,7 +68,6 @@ open class SVNBasicMapViewController: SVNModalViewController, MKMapViewDelegate,
         super.viewDidLoad()
         self.view.addSubview(self.mapView)
         self.view.addSubview(self.largeButton)
-        self.addModalSubviews()
         self.requestLocationAuth()
     }
     
