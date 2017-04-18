@@ -1,4 +1,4 @@
 github "sevenapps/SVNMaterialButton" "cead7dc1af5df1dcd6c872d20757ff2e68461935"
-github "sevenapps/SVNModalViewController" "267eb1bbe3d3bdf2494fd5541fcb00c82d751d9e"
+github "sevenapps/SVNModalViewController" "a82861a09ed6e479808f020782d6853eaa8afba9"
 github "sevenapps/SVNShapesManager" "b4bf512124cc1814c8caed28f9a498d405a6d268"
-github "sevenapps/SVNTheme" "c840e1791ba64d9900c682bfbdfe355dc572a64a"
+github "sevenapps/SVNTheme" "1.1.1"

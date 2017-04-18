@@ -13,13 +13,7 @@ import SVNMaterialButton
 import CoreLocation
 import SVNTheme
 
-public protocol SVNBasicMapViewControllerDelegate: class {
-    func SVNBasicMapViewControllerDid(confirm location: CLLocationCoordinate2D)
-}
-
 open class SVNBasicMapViewController: SVNModalViewController, MKMapViewDelegate, CLLocationManagerDelegate {
-    
-    public weak var delegate: SVNBasicMapViewControllerDelegate!
     
     private lazy var largeButton: SVNMaterialButton  = {
         let button = SVNMaterialButton(layoutInBottomOfContainer: self.view.bounds, color: self.theme.primaryDialogColor)
@@ -47,6 +41,8 @@ open class SVNBasicMapViewController: SVNModalViewController, MKMapViewDelegate,
     private var firstLoad = true
     
     public var model: SVNBasicMapViewModel!
+    
+    public var basicMapDidReturn: ((CLLocationCoordinate2D) -> Void)?
     
     public init(theme: SVNTheme?, model: SVNBasicMapViewModel?) {
         super.init(nibName: nil, bundle: nil)
@@ -116,6 +112,6 @@ open class SVNBasicMapViewController: SVNModalViewController, MKMapViewDelegate,
     }
     
     public func confirmLocation(_ sender: Any){
-        self.delegate.SVNBasicMapViewControllerDid(confirm: self.mapView.userLocation.coordinate)
+        self.basicMapDidReturn?(self.mapView.userLocation.coordinate)
     }
 }
