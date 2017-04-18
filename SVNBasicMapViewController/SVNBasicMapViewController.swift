@@ -9,6 +9,7 @@
 import UIKit
 import MapKit
 import SVNModalViewController
+import SVNBasicMapViewController
 import SVNMaterialButton
 import CoreLocation
 import SVNTheme
@@ -25,6 +26,7 @@ open class SVNBasicMapViewController: SVNModalViewController, MKMapViewDelegate,
     private lazy var mapView: MKMapView = {
         let map = MKMapView(frame: self.view.bounds)
         map.delegate = self
+        map.showsUserLocation = true
         return map
     }()
     
@@ -90,9 +92,10 @@ open class SVNBasicMapViewController: SVNModalViewController, MKMapViewDelegate,
         locationManager.requestAlwaysAuthorization()
     }
     
-     public func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    public func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard locations.first != nil else { return }
         self.setRegion()
+        self.locationManager.stopUpdatingLocation()
     }
     
     private func setRegion(){
