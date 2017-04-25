@@ -67,6 +67,7 @@ open class SVNBasicMapViewController: SVNModalViewController, MKMapViewDelegate,
         self.view.addSubview(self.mapView)
         self.view.addSubview(self.largeButton)
         self.requestLocationAuth()
+        self.addModalSubviews()
     }
     
     public func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
