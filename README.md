@@ -11,7 +11,7 @@ Basic functionality includes finding a users location and allowing the user to c
 To create an instance of this class call init(theme: model:) or init(nibName: bundleName: theme: model:)
 Pass in a custom SVNTheme and SVNBasicMapViewModel instance or nil for default styling
 
-To retrieve a User's location back from this class equate a function in the presenting class to:
+To retrieve a User's location back from this class equate a method in the presenting class to:
 
     basicMapDidReturn: ((CLLocationCoordinate2D) -> Void)?
 
