@@ -1,6 +1,10 @@
-![SVNBasicMapViewController](Images/Location.png "SVNBasicMapViewController")
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 # SVNBasicMapViewController
+<p align="center">
+  <img src="Images/Location.png "SVNBasicMapViewController" alt="SVNBasicMapViewController's image"/>
+</p>
+
 A map with a SVNMaterialButton on it. Is a subclass of SVNModalViewController and is intended to be presented modally
 Basic functionality includes finding a users location and allowing the user to confirm that location
 
