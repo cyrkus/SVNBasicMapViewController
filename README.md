@@ -5,11 +5,7 @@
   <img src="Images/Location.png "SVNBasicMapViewController" alt="SVNBasicMapViewController's image"/>
 </p>
 
-A map with a
-
-[SVNMaterialButton]("https://github.com/sevenapps/SVNMaterialButton")
-
- on it. Is a subclass of [SVNModalViewController]("https://github.com/sevenapps/SVNModalViewController") and is intended to be presented modally
+A map with a [SVNMaterialButton](https://github.com/sevenapps/SVNMaterialButton) on it. Is a subclass of [SVNModalViewController](https://github.com/sevenapps/SVNModalViewController) and is intended to be presented modally
 Basic functionality includes finding a users location and allowing the user to confirm that location
 
 To create an instance of this class call init(theme: model:) or init(nibName: bundleName: theme: model:)
