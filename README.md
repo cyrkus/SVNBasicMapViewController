@@ -1,11 +1,17 @@
+![SVNBasicMapViewController](Images/Location.png "SVNBasicMapViewController")
+
 # SVNBasicMapViewController
-A map with a large material button on it. Is a subclass of SVNModalViewController and is intended to be presented modally
+A map with a SVNMaterialButton on it. Is a subclass of SVNModalViewController and is intended to be presented modally
 Basic functionality includes finding a users location and allowing the user to confirm that location
 
 To create an instance of this class call init(theme: model:) or init(nibName: bundleName: theme: model:)
 Pass in a custom SVNTheme and SVNBasicMapViewModel instance or nil for default styling
 
-If you haven't added location access to your info.plist:
+To retrieve a User's location back from this class equate a function in the presenting class to:
+
+    basicMapDidReturn: ((CLLocationCoordinate2D) -> Void)?
+
+If you haven't added location access to your projects info.plist already:
 
     Key       :  NSLocationWhenInUseUsageDescription
     Value     :  $(PRODUCT_NAME) location use Description
@@ -38,7 +44,7 @@ Update your project to include the framework:
 
     Carthage update --platform iOS
 
-Add the framework to 'Linked Frameworks and Libraries' in the Xcode Project by dragging and dropping the framework created in
+Add the framework to 'Embedded FrameWorks & Libraries' in the Xcode Project by dragging and dropping the framework created in
 
     Carthage/Build/iOS/pathToFramework*.framework
 
