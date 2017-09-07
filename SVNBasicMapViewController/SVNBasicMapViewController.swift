@@ -49,14 +49,14 @@ open class SVNBasicMapViewController: SVNModalViewController, MKMapViewDelegate,
   
   public var basicMapDidReturn: ((CLLocationCoordinate2D) -> Void)?
   
-  public init(theme: SVNTheme?, model: SVNBasicMapViewModel?, buttonViewModel: SVNMaterialButtonViewModel) {
+  public init(theme: SVNTheme?, model: SVNBasicMapViewModel?, buttonViewModel: SVNMaterialButtonViewModel = SVNMaterialButtonViewModel_Default()) {
     self.model = model == nil ? SVNBasicMapVM() : model!
     self.buttonViewModel = buttonViewModel
     super.init(nibName: nil, bundle: nil)
     self.theme = theme == nil ? SVNTheme_DefaultDark() : theme!
   }
   
-  public init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?, theme: SVNTheme?, model: SVNBasicMapViewModel?, buttonViewModel: SVNMaterialButtonViewModel) {
+  public init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?, theme: SVNTheme?, model: SVNBasicMapViewModel?, buttonViewModel: SVNMaterialButtonViewModel = SVNMaterialButtonViewModel_Default()) {
     self.buttonViewModel = buttonViewModel
     self.model = model == nil ? SVNBasicMapVM() : model!
     super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
