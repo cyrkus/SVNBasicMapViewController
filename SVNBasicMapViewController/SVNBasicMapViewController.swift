@@ -9,9 +9,8 @@
 import UIKit
 import MapKit
 import SVNModalViewController
-import SVNBasicMapViewController
-import SVNMaterialButton
 import CoreLocation
+import SVNMaterialButton
 import SVNTheme
 
 open class SVNBasicMapViewController: SVNModalViewController, MKMapViewDelegate, CLLocationManagerDelegate {
