@@ -6,10 +6,10 @@
 //  Copyright © 2017 7apps. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public enum iOSDevice {
-  case isIphone4, isIphone5, isIphone6, isIphone6plus, isIphone, isIpad, isIpadPro
+  case isIphone4, isIphone5, isIphone6, isIphone6plus, isIphone, isIphoneX, isIpad, isIpadPro
 }
 
 extension UIDevice {
@@ -27,6 +27,7 @@ extension UIDevice {
       (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 568.0, iOSDevice.isIphone5),
       (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 667.0, iOSDevice.isIphone6),
       (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 736.0, iOSDevice.isIphone6plus),
+      (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 812.0, iOSDevice.isIphoneX),
       (UIDevice.current.userInterfaceIdiom == .pad && ScreenSize.SCREEN_MAX_LENGTH == 1024.0, iOSDevice.isIpad),
       (UIDevice.current.userInterfaceIdiom == .pad && ScreenSize.SCREEN_MAX_LENGTH == 1366.0, iOSDevice.isIpadPro)])
   }
@@ -45,7 +46,8 @@ extension UIDevice {
     return isVersion([(systemOS < 8.0 && systemOS >= 7.0, iOSVersion.iOS7),
                       (systemOS >= 8.0 && systemOS < 9.0, iOSVersion.iOS8),
                       (systemOS >= 9.0 && systemOS < 10.0, iOSVersion.iOS9),
-                      (systemOS >= 10.0 && systemOS < 11.0, iOSVersion.iOS10)])
+                      (systemOS >= 10.0 && systemOS < 11.0, iOSVersion.iOS10),
+                      (systemOS >= 11.0 && systemOS < 12.0, iOSVersion.iOS11)])
   }
   
   
@@ -70,5 +72,5 @@ private struct ScreenSize {
 
 
 public enum iOSVersion {
-  case iOS7, iOS8, iOS9, iOS10
+  case iOS7, iOS8, iOS9, iOS10, iOS11
 }
