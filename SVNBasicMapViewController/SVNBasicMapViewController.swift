@@ -121,7 +121,7 @@ open class SVNBasicMapViewController: SVNModalViewController, MKMapViewDelegate,
     self.setRegion()
   }
   
-  public func confirmLocation(_ sender: Any){
+  @objc public func confirmLocation(_ sender: Any){
     self.basicMapDidReturn?(self.mapView.userLocation.coordinate)
   }
 }
