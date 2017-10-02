@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A12267ED1F2FCA7B002FD589 /* SwiftEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12267EC1F2FCA7B002FD589 /* SwiftEssentials.framework */; };
-		A1409EF41F28007D001145D9 /* CoordinatableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1409EF31F28007D001145D9 /* CoordinatableVC.swift */; };
 		A1437A561F2805890079C593 /* CaseCountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1437A551F2805890079C593 /* CaseCountable.swift */; };
 		A155C5681EFD8C2C0069380F /* SVNBootstraper.h in Headers */ = {isa = PBXBuildFile; fileRef = A155C5661EFD8C2C0069380F /* SVNBootstraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A155C56F1EFD8C380069380F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C56E1EFD8C380069380F /* Device.swift */; };
 		A155C5711EFD8C620069380F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5701EFD8C620069380F /* Reachability.swift */; };
 		A155C5731EFD8C740069380F /* Reachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5721EFD8C740069380F /* Reachable.swift */; };
 		A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5741EFD8CAC0069380F /* Alertable.swift */; };
 		A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5791EFD905B0069380F /* DocumentsSearchable.swift */; };
 		A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C57C1EFD909B0069380F /* KeyboardNotifiable.swift */; };
-		A155C57F1EFD92860069380F /* TypeIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C57E1EFD92860069380F /* TypeIterable.swift */; };
 		A155C5871EFDACB70069380F /* UIColor-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5861EFDACB70069380F /* UIColor-Ext.swift */; };
 		A17AA6DC1F5F589900045C10 /* FirePrintCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AA6DB1F5F589900045C10 /* FirePrintCreatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A12267EC1F2FCA7B002FD589 /* SwiftEssentials.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftEssentials.framework; path = Carthage/Build/iOS/SwiftEssentials.framework; sourceTree = "<group>"; };
-		A1409EF31F28007D001145D9 /* CoordinatableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatableVC.swift; sourceTree = "<group>"; };
 		A1437A551F2805890079C593 /* CaseCountable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseCountable.swift; sourceTree = "<group>"; };
 		A155C5631EFD8C2C0069380F /* SVNBootstraper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVNBootstraper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A155C5661EFD8C2C0069380F /* SVNBootstraper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNBootstraper.h; sourceTree = "<group>"; };
 		A155C5671EFD8C2C0069380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A155C56E1EFD8C380069380F /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		A155C5701EFD8C620069380F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A155C5721EFD8C740069380F /* Reachable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachable.swift; path = /Users/abikis/Development/7apps/iOS/Frameworks/SVN/SVNiOSBootstraper/SVNBootstraper/Reachable.swift; sourceTree = "<absolute>"; };
 		A155C5741EFD8CAC0069380F /* Alertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
 		A155C5791EFD905B0069380F /* DocumentsSearchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsSearchable.swift; sourceTree = "<group>"; };
 		A155C57C1EFD909B0069380F /* KeyboardNotifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNotifiable.swift; sourceTree = "<group>"; };
-		A155C57E1EFD92860069380F /* TypeIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeIterable.swift; sourceTree = "<group>"; };
 		A155C5861EFDACB70069380F /* UIColor-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Ext.swift"; sourceTree = "<group>"; };
 		A17AA6DB1F5F589900045C10 /* FirePrintCreatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirePrintCreatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12267ED1F2FCA7B002FD589 /* SwiftEssentials.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,17 +46,8 @@
 		A12267EB1F2FCA7B002FD589 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A12267EC1F2FCA7B002FD589 /* SwiftEssentials.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A1409E7A1F27E1A6001145D9 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				A1409EF31F28007D001145D9 /* CoordinatableVC.swift */,
-			);
-			name = Coordinator;
 			sourceTree = "<group>";
 		};
 		A155C5591EFD8C2C0069380F = {
@@ -88,12 +70,10 @@
 		A155C5651EFD8C2C0069380F /* SVNBootstraper */ = {
 			isa = PBXGroup;
 			children = (
-				A1409E7A1F27E1A6001145D9 /* Coordinator */,
 				A155C5881EFDACC60069380F /* UI-EXt */,
 				A155C5851EFDABF00069380F /* TypeMutation */,
 				A155C5771EFD90150069380F /* Notifications */,
 				A155C5761EFD900C0069380F /* Networking */,
-				A155C5781EFD901B0069380F /* Device */,
 				A155C57B1EFD90630069380F /* FileManagement */,
 				A155C5661EFD8C2C0069380F /* SVNBootstraper.h */,
 				A155C5671EFD8C2C0069380F /* Info.plist */,
@@ -119,14 +99,6 @@
 			name = Notifications;
 			sourceTree = "<group>";
 		};
-		A155C5781EFD901B0069380F /* Device */ = {
-			isa = PBXGroup;
-			children = (
-				A155C56E1EFD8C380069380F /* Device.swift */,
-			);
-			name = Device;
-			sourceTree = "<group>";
-		};
 		A155C57B1EFD90630069380F /* FileManagement */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				A1437A551F2805890079C593 /* CaseCountable.swift */,
-				A155C57E1EFD92860069380F /* TypeIterable.swift */,
 			);
 			name = TypeMutation;
 			sourceTree = "<group>";
@@ -192,13 +163,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = 7apps;
 				TargetAttributes = {
 					A155C5621EFD8C2C0069380F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 8J6N66RNAY;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -236,15 +207,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17AA6DC1F5F589900045C10 /* FirePrintCreatable.swift in Sources */,
-				A1409EF41F28007D001145D9 /* CoordinatableVC.swift in Sources */,
-				A155C57F1EFD92860069380F /* TypeIterable.swift in Sources */,
 				A1437A561F2805890079C593 /* CaseCountable.swift in Sources */,
 				A155C5731EFD8C740069380F /* Reachable.swift in Sources */,
 				A155C5711EFD8C620069380F /* Reachability.swift in Sources */,
 				A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */,
 				A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */,
 				A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */,
-				A155C56F1EFD8C380069380F /* Device.swift in Sources */,
 				A155C5871EFDACB70069380F /* UIColor-Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +230,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -270,7 +240,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -294,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -316,7 +290,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -324,7 +300,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -342,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -375,7 +355,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -400,7 +381,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.7apps.SVNBootstraper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

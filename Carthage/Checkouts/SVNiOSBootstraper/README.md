@@ -15,7 +15,8 @@ A bootstaping framework filled with protocols I use all the time.
   Find out if the user has a stable internet connection
 
 ### UIDevice
- Get the user's device and version as a Type
+  No longer supported. Using Device Kit instead:
+  github "dennisweissmann/DeviceKit" ~> 1.0
 
 ### DocumentsSearchable
  Quick helper to look up a file in the documents directory

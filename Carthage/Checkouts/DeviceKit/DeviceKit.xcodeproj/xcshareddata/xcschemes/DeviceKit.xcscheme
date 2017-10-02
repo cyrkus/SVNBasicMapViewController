@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A155C5621EFD8C2C0069380F"
-               BuildableName = "SVNBootstraper.framework"
-               BlueprintName = "SVNBootstraper"
-               ReferencedContainer = "container:SVNBootstraper.xcodeproj">
+               BlueprintIdentifier = "955EE5991D5E581B008C3DA8"
+               BuildableName = "DeviceKit.framework"
+               BlueprintName = "DeviceKit"
+               ReferencedContainer = "container:DeviceKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,7 +29,26 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "955EE5A11D5E581B008C3DA8"
+               BuildableName = "DeviceKitTests.xctest"
+               BlueprintName = "DeviceKitTests"
+               ReferencedContainer = "container:DeviceKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "955EE5991D5E581B008C3DA8"
+            BuildableName = "DeviceKit.framework"
+            BlueprintName = "DeviceKit"
+            ReferencedContainer = "container:DeviceKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -47,10 +66,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A155C5621EFD8C2C0069380F"
-            BuildableName = "SVNBootstraper.framework"
-            BlueprintName = "SVNBootstraper"
-            ReferencedContainer = "container:SVNBootstraper.xcodeproj">
+            BlueprintIdentifier = "955EE5991D5E581B008C3DA8"
+            BuildableName = "DeviceKit.framework"
+            BlueprintName = "DeviceKit"
+            ReferencedContainer = "container:DeviceKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +84,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A155C5621EFD8C2C0069380F"
-            BuildableName = "SVNBootstraper.framework"
-            BlueprintName = "SVNBootstraper"
-            ReferencedContainer = "container:SVNBootstraper.xcodeproj">
+            BlueprintIdentifier = "955EE5991D5E581B008C3DA8"
+            BuildableName = "DeviceKit.framework"
+            BlueprintName = "DeviceKit"
+            ReferencedContainer = "container:DeviceKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -1,1 +1,2 @@
 github "https://github.com/bikisDesign/Swift-Essentials" "master"
+github "dennisweissmann/DeviceKit" ~> 1.0
